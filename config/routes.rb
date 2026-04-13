@@ -25,6 +25,4 @@ Rails.application.routes.draw do
   delete "posts/:id", to: "posts#destroy", as: :destroy_post
 
   get "users/:id", to: "users#show", as: :user
-
-
 end
