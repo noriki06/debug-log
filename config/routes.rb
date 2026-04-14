@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   resources :categories
   get "home/index"
   root "home#index"
-  
+
   get "up" => "rails/health#show", as: :rails_health_check
 
   get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
